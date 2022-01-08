@@ -1,0 +1,122 @@
+/* reset  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+/* general  */
+
+.row [class^="col"] {
+  float: left;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header  */
+
+.container {
+  height: 100%;
+  width: 100%;
+
+  padding: 15px 5px;
+  color: black;
+}
+
+.main-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 7px;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.row-right {
+  float: right;
+}
+
+.main-but {
+  margin-left: 15px;
+  margin-right: 10px;
+  background-color: blue;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+}
+
+/* col  */
+.col-4 {
+  width: 33.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* jumbo  */
+
+#jumbo {
+  padding: 70px;
+  max-width: 100%;
+  min-height: 570px;
+  background-color: #b4d0e7;
+}
+
+#jumbo .row:first-child {
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.description-title {
+  margin-bottom: 30px;
+  font-weight: 550;
+}
+
+.cta-jumbo {
+  margin-bottom: 10px;
+}
+
+.icon-jumbo {
+  padding: 25px 0 20px;
+  font-size: 35px;
+  color: black;
+}
+
+.img-wrapper {
+  float: right;
+  margin-top: -280px;
+  padding-left: 20px;
+}
