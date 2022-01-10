@@ -323,12 +323,9 @@ li {
   padding-bottom: 60px;
 }
 
-.agency-number {
-  max-width: 500px;
-}
-
 .agency-title {
   padding-bottom: 20px;
+  max-width: 440px;
 }
 
 .link-agency {
@@ -367,3 +364,9 @@ li {
   font-size: 12px;
   text-align: center;
 }
+
+/* .sect {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: blue;
+} */
