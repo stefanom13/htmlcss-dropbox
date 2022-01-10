@@ -82,6 +82,10 @@ img {
   width: 100%;
 }
 
+.col-50 {
+  width: 50%;
+}
+
 /* jumbo  */
 
 #jumbo {
@@ -277,4 +281,39 @@ li {
 
 .but-shop {
   padding: 10px 20px;
+}
+
+/* inserimento main-centrale  */
+
+.middle-main {
+  padding-top: 100px;
+}
+
+.cont-img {
+  display: inline-block;
+}
+
+.wrap-img {
+  float: left;
+}
+
+.text-img {
+  padding: 30px;
+}
+
+.title-img {
+  font-size: 24px;
+}
+
+.wrap-text {
+  padding-top: 20px;
+}
+
+.but-img {
+  border: 1px solid gray;
+  color: whitesmoke;
+  padding: 10px 14px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
 }
