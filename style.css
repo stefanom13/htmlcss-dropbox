@@ -317,3 +317,8 @@ li {
   text-align: center;
   color: black;
 }
+
+.card-text {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
