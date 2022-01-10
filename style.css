@@ -24,7 +24,7 @@ li {
 a {
   text-decoration: none;
   display: inline-block;
-  color: black;
+  /* color: black; */
 }
 
 .row::after {
@@ -39,7 +39,7 @@ img {
 
 /* header  */
 
-.container {
+.container-fluid {
   height: 100%;
   width: 100%;
 
@@ -88,7 +88,7 @@ img {
   padding: 70px;
   max-width: 100%;
   min-height: 570px;
-  background-color: #b4d0e7;
+  background-color: #508def;
 }
 
 #jumbo .row:first-child {
@@ -109,9 +109,17 @@ img {
   margin-bottom: 10px;
 }
 
+.button {
+  background-color: #0061ff;
+  color: whitesmoke;
+  padding: 10px 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
 .icon-jumbo {
   padding: 25px 0 20px;
-  font-size: 35px;
+  font-size: 20px;
   color: black;
 }
 
@@ -119,4 +127,154 @@ img {
   float: right;
   margin-top: -280px;
   padding-left: 20px;
+}
+
+/* debug  */
+.sect-debug {
+  padding-bottom: 15px;
+}
+
+/* plain section  */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.col-title {
+  width: 100%;
+}
+
+.cont-title {
+  padding: 35px 0;
+  font-size: 30px;
+}
+.plan {
+  border: 1px solid rgb(160, 154, 154);
+}
+.full-plan {
+  min-height: 800px;
+}
+
+.fatt {
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+.middle-plan {
+  padding-left: 20px;
+}
+
+.plan-radio {
+  padding-bottom: 15px;
+}
+
+.plan-radio input {
+  vertical-align: middle;
+}
+
+.plan-radio .month {
+  margin-right: 10px;
+}
+
+.plan-header {
+  border-bottom: 1px solid rgb(160, 154, 154);
+  text-align: center;
+  padding: 10px;
+}
+.plan-body {
+  padding-left: 15px;
+  padding-top: 15px;
+  vertical-align: middle;
+}
+
+.plan-footer {
+  padding: 15px 15px;
+}
+
+.price {
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+.footer-price {
+  font-size: 12px;
+  color: rgb(160, 154, 154);
+}
+
+.plan-features {
+  padding: 20px 0;
+  font-size: 14px;
+}
+.plan-features,
+li {
+  margin-bottom: 20px;
+}
+
+.plan-features li:last-child {
+  margin-bottom: 0px;
+}
+
+.link-features-footer {
+  padding-top: 20px;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.bt {
+  width: 100%;
+}
+
+.link-features-footer .link-footer {
+  color: blue;
+  text-decoration: underline;
+}
+
+.plan-underscore::after {
+  content: "";
+  display: block;
+  background-color: rgb(152, 152, 152);
+  width: 35px;
+  height: 1px;
+}
+.plan-underscore {
+  padding: 15px 15px;
+}
+
+.plan-footer .footer-title-plan {
+  padding-bottom: 22px;
+}
+
+.second-list {
+  font-size: 14px;
+}
+
+.second-list i {
+  color: blue;
+}
+
+.span-footer {
+  /* text-align: center; */
+  vertical-align: middle;
+}
+.foot-footer {
+  border: 1px solid gold;
+}
+
+.second-title-plan {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.info-note {
+  font-size: 12px;
+}
+.rt {
+  float: right;
+  padding-right: 15px;
+}
+
+.but-shop {
+  padding: 10px 20px;
 }
