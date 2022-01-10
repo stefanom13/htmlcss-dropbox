@@ -320,5 +320,50 @@ li {
 
 .card-text {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+}
+
+.agency-number {
+  max-width: 500px;
+}
+
+.agency-title {
+  padding-bottom: 20px;
+}
+
+.link-agency {
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.agency-cont {
+  max-width: 400px;
+}
+.agency-cont {
+  display: inline-block;
+}
+
+.info-card {
+  padding-top: 50px;
+  padding-left: 0;
+  padding-bottom: 30px;
+  background-color: blue;
+}
+
+.agency-info {
+  max-width: 410px;
+}
+
+.invite-text {
+  font-size: 28px;
+  color: rgb(165, 16, 46);
+}
+
+.bt-try-to-do {
+  background-color: #a5abb5;
+  color: black;
+  padding: 10px 30px;
+  font-size: 12px;
+  text-align: center;
 }
