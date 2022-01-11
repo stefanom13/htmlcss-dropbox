@@ -506,6 +506,7 @@ li {
 
 footer {
   background-color: black;
+  padding: 30px 0;
 }
 
 /* color svg  */
@@ -534,56 +535,64 @@ footer {
 
 .container-footer {
   max-width: 1024px;
-  height: 300px;
+
   margin: 0 auto;
-}
-
-/* select  */
-/* .select-language {
-  border-top: 1px solid #d4d5d7;
-} */
-
-select {
-  color: rgb(126, 126, 126);
-  background-color: black;
-  border: none;
 }
 
 .row-footer {
   float: left;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .card-footer {
   width: 20%;
-  padding: 10px;
+  padding: 10px 5px;
+  padding-bottom: 60px;
 }
 
-.list-footer {
-}
 .list-footer li {
   display: inline-block;
   width: 100%;
 }
 .list-footer li {
   margin-bottom: 0;
-  padding-top: 8px;
+  padding-top: 10px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bolder;
   color: white;
+  filter: invert(1);
 }
 
 .title-list-card {
   padding-bottom: 10px;
   color: white;
+  font-size: 20px;
 }
 
-.debug-foter {
-  border: 1px solid green;
-  text-align: left;
-  padding: 30px 20px;
+/* .debug-foter {
+  border: 1px solid blue;
+} */
+
+.color-link {
+  color: white;
 }
 
-.debug-foter-ct {
-  border: 1px solid brown;
+.select-footer {
+  margin-top: 60px;
+  padding: 25px 0;
+}
+
+/* da chiedere al tutor */
+
+.overlay::after {
+  content: "";
+  display: block;
+  background-color: rgb(152, 152, 152);
+  width: 35px;
+  height: 1px;
+}
+
+.container-section-select {
+  max-width: 1024px;
+  margin: 0 auto;
 }
