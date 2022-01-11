@@ -440,8 +440,12 @@ li {
 }
 
 .find-agency {
-  height: 100%;
+  height: 300px;
   background-color: rgb(154, 202, 215);
+}
+
+.row.agency {
+  vertical-align: middle;
 }
 .bt-agency {
   background-color: hsl(216, 63%, 97%);
@@ -457,7 +461,7 @@ li {
 }
 
 .footer-svg {
-  padding: 70px 0px;
+  padding: 90px 0px;
 }
 
 /* faq  */
@@ -467,7 +471,7 @@ li {
   padding-bottom: 80px;
 }
 .title-faq {
-  font-size: 30px;
+  font-size: 36px;
   padding: 30px 0;
 }
 
@@ -560,9 +564,12 @@ footer {
   font-size: 14px;
   font-weight: bolder;
   color: white;
-  filter: invert(1);
 }
 
+.list-footer li a {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
 .title-list-card {
   padding-bottom: 10px;
   color: white;
@@ -587,12 +594,17 @@ footer {
 .overlay::after {
   content: "";
   display: block;
+  clear: both;
   background-color: rgb(152, 152, 152);
-  width: 35px;
+  width: 75px;
   height: 1px;
 }
 
 .container-section-select {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.select-footer i {
+  color: white;
 }
